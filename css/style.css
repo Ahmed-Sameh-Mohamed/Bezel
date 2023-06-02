@@ -1,0 +1,180 @@
+
+body{
+    font-family:"segoe ui light";
+}
+
+:root{
+    --blue-color:rgb(#00c3da);
+}
+ section{
+    padding: 80px 0;
+} 
+
+
+.setting{
+ position: absolute;
+ top: 30%;
+ left: 0;
+ z-index: 99;
+ background-color: rgb(0, 0, 0);
+ color: white;
+ border-radius: 0 5px 5px 0;
+ 
+}
+
+#Home{
+    background: url(https://bezel.onrender.com/images/bg-image-28.jpg) center fixed;
+    background-size: cover;
+}
+
+#Home .layer{
+
+    min-height: 100vh;
+}
+#Home .b1{
+    padding: 15px 25px 15px 25px;
+    background-color:#00c3da ;
+    border: 1px solid #00c3da ;
+    border-radius:5px;
+    cursor: pointer;
+}
+#Home .b2{
+    padding: 15px 25px 15px 25px;
+    border: 1px solid #dff4f6 ;
+    border-radius:5px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+}
+#Home .b2:hover{
+    background-color: white;
+    color: #000;
+    
+}
+
+#About button{
+    padding: 15px 25px 15px 25px;
+    border: 1px solid #c0c6c7 ;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#About button:hover{
+    background-color:#000;
+    color: white;
+}
+
+
+/* https://bezel.onrender.com/images/team-1.jpg */
+
+
+
+#Team .card-body{
+    width: 100%;
+    background-image: url(https://bezel.onrender.com/images/team-1.jpg);
+    background-size: cover;
+}
+
+
+#customer img{
+    width: 120px;
+    height: 120px;
+}
+#customer{
+    background-color: #f7f7f7;
+}
+#customer .customer-area{
+    background-color: rgb(174, 177, 180);
+    width: 800px;
+    
+}
+#customer .carousel-indicators [data-bs-target]{
+
+    all:unset;
+    width: 10px;
+    height: 10px;
+    background-color:aqua;
+    margin-inline: 2px;
+    opacity: .7;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all .5s;
+    
+}
+#customer .carousel-indicators .active{
+    opacity: 2;
+    width: 11px;
+    height: 11px;
+}
+
+#pricing{
+    background-color: #f7f7f7;
+}
+
+#pricing a{
+    background-color: #00c3da;
+    padding: 16px 16px;
+    color: white;
+}
+#pricing hr{
+    width: 200px;
+    height: 1px;
+    
+}
+#pricing .card{
+    border-radius: 0;
+   
+}
+#pricing ul{
+    list-style: none;
+    margin-right: 20px;
+}
+#navbar{
+    background-color: blue;
+}
+#wedo{
+    background-color: #414040;
+}
+#wedo .row{
+    color: white;
+}
+#contant {
+    background-color: #f7f7f7;
+}
+
+#contant img{
+    width: 600px;
+    height: 650px;
+}
+#contant button{
+    background-color: #00c3da;
+    border-radius: 5px 5px;
+    color: white;
+}
+
+
+
+#team .items .item img{
+    width: 100%;
+}
+
+#team .items .item{
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    }
+
+#team .items .item .caption{
+    background-color:rgba(4, 174, 221,0.8);
+    color: white;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: top 1s;
+
+}
+#team .items .item:hover .caption{
+    top: 0;
+
+}
